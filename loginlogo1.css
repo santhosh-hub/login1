@@ -1,0 +1,78 @@
+body{
+     background:url(coffee.jpg);	
+     background-position: centre;
+     margin: 0;
+     background-size: cover;
+     font-family: sans-serif;
+     padding: 0;
+}
+.loginbox{
+     width:320px;
+     height:450px;
+     top:170px;
+     left:500px;
+     background: #000;
+     color:#fff;
+     position: absolute;
+     padding: 50px 0 0 10px;
+     box-sizing: border-box;
+     padding:70px 40px;
+}
+.avatar{
+     width:100px;
+     height:100px;
+     top:-50px;
+     left:112px;
+     position: absolute;
+     border-radius: 50px;
+
+
+}
+h1{
+    
+    text-align: center;
+    font-size: 22px;
+}
+.loginbox p{
+    font-weight: bold;
+}
+.loginbox input{
+	width:100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"],input[type="password"]{
+    border:none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    height:20px;
+    outline:none;
+    color:white;
+    font-size:15px ;
+
+}
+.loginbox input[type="submit"]{
+	border:none;
+	outline:none;
+	height:40px;
+	background: #fb2525;
+	color:#fff;
+	font-size: 20px;
+	border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+  cursor:pointer;
+  background: #ffc187;
+  color:#000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color:darkgrey;
+
+}
+.loginbox a:hover{
+     color:#ffc107;
+
+}
